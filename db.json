@@ -1,0 +1,879 @@
+{
+  "users": [
+    {
+      "id": "84be",
+      "firstName": "Manideep",
+      "lastName": "M",
+      "mobileNo": "9032345245",
+      "email": "trainingdli2@gmail.com",
+      "password": "test@123",
+      "confirmPassword": "test@123"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 101,
+      "customerName": "Digital Lync",
+      "deliveryAddress": "123 Main St, Cityville",
+      "items": [
+        {
+          "itemName": "Burger",
+          "quantity": 2,
+          "price": 5.99
+        },
+        {
+          "itemName": "Fries",
+          "quantity": 1,
+          "price": 2.99
+        },
+        {
+          "itemName": "Coke",
+          "quantity": 1,
+          "price": 1.99
+        }
+      ],
+      "totalAmount": 16.96,
+      "orderStatus": "Delivered",
+      "deliveryTime": "2024-10-04T12:30:00Z",
+      "paymentMethod": "Credit Card",
+      "id": "8c08"
+    },
+    {
+      "orderId": 102,
+      "customerName": "Jane Smith",
+      "deliveryAddress": "456 Oak St, Townsville",
+      "items": [
+        {
+          "itemName": "Pizza",
+          "quantity": 1,
+          "price": 12.99
+        },
+        {
+          "itemName": "Garlic Bread",
+          "quantity": 1,
+          "price": 3.99
+        }
+      ],
+      "totalAmount": 16.98,
+      "orderStatus": "On the way",
+      "deliveryTime": "2024-10-03T13:00:00Z",
+      "paymentMethod": "Cash",
+      "id": "f91f"
+    },
+    {
+      "orderId": 103,
+      "customerName": "Tom Johnson",
+      "deliveryAddress": "789 Pine St, Villagetown",
+      "items": [
+        {
+          "itemName": "Sushi Roll",
+          "quantity": 3,
+          "price": 8.99
+        },
+        {
+          "itemName": "Miso Soup",
+          "quantity": 2,
+          "price": 2.99
+        }
+      ],
+      "totalAmount": 32.94,
+      "orderStatus": "Preparing",
+      "deliveryTime": "2024-10-02T13:30:00Z",
+      "paymentMethod": "PayPal",
+      "id": "f88a"
+    },
+    {
+      "orderId": 104,
+      "customerName": "Alice Brown",
+      "deliveryAddress": "321 Elm St, Cityville",
+      "items": [
+        {
+          "itemName": "Chicken Wings",
+          "quantity": 2,
+          "price": 6.99
+        },
+        {
+          "itemName": "Salad",
+          "quantity": 1,
+          "price": 3.99
+        }
+      ],
+      "totalAmount": 17.97,
+      "orderStatus": "Delivered",
+      "deliveryTime": "2024-10-01T14:00:00Z",
+      "paymentMethod": "Credit Card",
+      "id": "2749"
+    },
+    {
+      "orderId": 105,
+      "customerName": "Bob Martin",
+      "deliveryAddress": "654 Willow St, Townsville",
+      "items": [
+        {
+          "itemName": "Tacos",
+          "quantity": 3,
+          "price": 4.99
+        },
+        {
+          "itemName": "Churros",
+          "quantity": 1,
+          "price": 2.99
+        }
+      ],
+      "totalAmount": 17.96,
+      "orderStatus": "On the way",
+      "deliveryTime": "2024-10-04T14:30:00Z",
+      "paymentMethod": "Cash",
+      "id": "c4f1"
+    },
+    {
+      "orderId": 106,
+      "customerName": "Sara White",
+      "deliveryAddress": "789 Birch St, Villagetown",
+      "items": [
+        {
+          "itemName": "Spaghetti",
+          "quantity": 1,
+          "price": 9.99
+        },
+        {
+          "itemName": "Garlic Bread",
+          "quantity": 1,
+          "price": 2.99
+        }
+      ],
+      "totalAmount": 12.98,
+      "orderStatus": "Preparing",
+      "deliveryTime": "2024-10-04T15:00:00Z",
+      "paymentMethod": "PayPal",
+      "id": "38b4"
+    },
+    {
+      "orderId": 107,
+      "customerName": "Tommy Lee",
+      "deliveryAddress": "111 Maple St, Cityville",
+      "items": [
+        {
+          "itemName": "Ramen",
+          "quantity": 2,
+          "price": 8.99
+        },
+        {
+          "itemName": "Tempura",
+          "quantity": 1,
+          "price": 4.99
+        }
+      ],
+      "totalAmount": 22.97,
+      "orderStatus": "Delivered",
+      "deliveryTime": "2024-10-04T15:30:00Z",
+      "paymentMethod": "Credit Card",
+      "id": "6821"
+    },
+    {
+      "orderId": 108,
+      "customerName": "Emma Green",
+      "deliveryAddress": "222 Cedar St, Townsville",
+      "items": [
+        {
+          "itemName": "Burrito",
+          "quantity": 1,
+          "price": 7.99
+        },
+        {
+          "itemName": "Nachos",
+          "quantity": 1,
+          "price": 5.99
+        }
+      ],
+      "totalAmount": 13.98,
+      "orderStatus": "On the way",
+      "deliveryTime": "2024-10-04T16:00:00Z",
+      "paymentMethod": "Cash",
+      "id": "1e98"
+    },
+    {
+      "orderId": 109,
+      "customerName": "Jack Brown",
+      "deliveryAddress": "333 Spruce St, Villagetown",
+      "items": [
+        {
+          "itemName": "Pho",
+          "quantity": 1,
+          "price": 10.99
+        },
+        {
+          "itemName": "Spring Rolls",
+          "quantity": 1,
+          "price": 4.99
+        }
+      ],
+      "totalAmount": 15.98,
+      "orderStatus": "Preparing",
+      "deliveryTime": "2024-10-04T16:30:00Z",
+      "paymentMethod": "PayPal",
+      "id": "d5fc"
+    },
+    {
+      "orderId": 110,
+      "customerName": "Olivia Johnson",
+      "deliveryAddress": "444 Oak St, Cityville",
+      "items": [
+        {
+          "itemName": "Salmon Sushi",
+          "quantity": 3,
+          "price": 12.99
+        },
+        {
+          "itemName": "Green Tea",
+          "quantity": 1,
+          "price": 2.99
+        }
+      ],
+      "totalAmount": 41.96,
+      "orderStatus": "Delivered",
+      "deliveryTime": "2024-10-04T17:00:00Z",
+      "paymentMethod": "Credit Card",
+      "id": "8f97"
+    }
+  ],
+  "voters": [
+    {
+      "name": "Mounika",
+      "age": "21",
+      "gender": "Female",
+      "location": {
+        "city": "Vizag"
+      },
+      "voted": "Yes",
+      "id": "9462"
+    },
+    {
+      "name": "jk",
+      "age": "23",
+      "gender": "male",
+      "location": {
+        "city": "Bhalki"
+      },
+      "voted": "Yes",
+      "id": "250f"
+    },
+    {
+      "name": "JD",
+      "age": "22",
+      "gender": "Male",
+      "location": {
+        "city": "Hyd"
+      },
+      "voted": "Yes",
+      "id": "ac91"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_002",
+      "name": "Bob Smith HJK",
+      "email": "bob.smith@example.com",
+      "age": 42,
+      "location": {
+        "city": "Denver",
+        "state": "Colorado",
+        "country": "USA"
+      },
+      "isPremiumMember": false
+    },
+    {
+      "id": "cust_005",
+      "name": "Ella San Francisco",
+      "email": "ella.white@example.com",
+      "age": 29,
+      "location": {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "USA"
+      },
+      "isPremiumMember": true
+    },
+    {
+      "id": "668e",
+      "name": "Arun J",
+      "email": "arun@gmail.com",
+      "age": "25",
+      "isPremiumMember": true,
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    },
+    {
+      "id": "471c",
+      "name": "",
+      "email": "arun@gmail.com",
+      "age": "26",
+      "isPremiumMember": true,
+      "location": {
+        "city": "Hyderabad",
+        "state": "",
+        "country": ""
+      }
+    },
+    {
+      "id": "1857",
+      "name": "",
+      "email": "",
+      "age": "",
+      "isPremiumMember": false,
+      "location": {
+        "city": "",
+        "state": "",
+        "country": ""
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Amit Sharma",
+      "phone": "9876543210",
+      "email": "amit.sharma@example.com"
+    },
+    {
+      "id": "2",
+      "name": "Priya Gupta",
+      "phone": "9123456789",
+      "email": "priya.gupta@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Rohan Mehta",
+      "phone": "9001234567",
+      "email": "rohan.mehta@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Neha Singh",
+      "phone": "9812345678",
+      "email": "neha.singh@example.com"
+    },
+    {
+      "id": "5",
+      "name": "Vikram Rao",
+      "phone": "9911223344",
+      "email": "vikram.rao@example.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "6",
+      "name": "Realme Narzo 60x (Nebula Purple, 128 GB) (8 GB RAM)",
+      "price": 14999,
+      "discount": 18,
+      "imgSrc": "https://m.media-amazon.com/images/I/71w-mmKgIfL._AC_UY327_FMwebp_QL65_.jpg",
+      "specifications": [
+        "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.5 cm (6.5 inch) FHD+ AMOLED Display",
+        "64MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 6100+ Processor",
+        "1 Year Manufacturer Warranty"
+      ],
+      "category": "mobile",
+      "inStock": true
+    },
+    {
+      "name": "POCO X5 Pro (Horizon Blue, 128 GB) (6 GB RAM)",
+      "specifications": "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB,16.94 cm (6.67 inch) Full HD+ AMOLED Display,64MP + 8MP + 2MP | 16MP Front Camera,5000 mAh Battery,Qualcomm Snapdragon 778G Processor,1 Year Manufacturer Warranty",
+      "price": "18999",
+      "discount": "22",
+      "category": "mobile",
+      "inStock": "Yes",
+      "imgSrc": "https://m.media-amazon.com/images/I/51dGqSFNrDL._AC_UY327_FMwebp_QL65_.jpg",
+      "id": "9"
+    },
+    {
+      "name": "Dell Inspiron 13 (Ryzen 5 Hexa Core, 16GB, 512GB SSD, Windows 11)",
+      "specifications": "AMD Ryzen 5 Hexa Core Processor,16GB DDR4 RAM | 512GB SSD,15.6\" Full HD Anti-glare Display,Integrated AMD Radeon Graphics,1 Year Manufacturer Warranty",
+      "price": "52999",
+      "discount": "15",
+      "category": "laptop",
+      "inStock": true,
+      "imgSrc": "https://m.media-amazon.com/images/I/71mFAMHkWyL._AC_UY327_FMwebp_QL65_.jpg",
+      "id": "10"
+    },
+    {
+      "name": "HP Pavilion x360 (Core i5 12th Gen, 8GB, 512GB SSD, Windows 11)",
+      "specifications": "Intel Core i5 12th Gen Processor,8GB DDR4 RAM | 512GB SSD,14\" Full HD Touchscreen Display,Intel Iris Xe Graphics,360-degree Hinge | Backlit Keyboard,1 Year Manufacturer Warranty",
+      "price": "74999",
+      "discount": "12",
+      "category": "laptop",
+      "inStock": "No",
+      "imgSrc": "https://m.media-amazon.com/images/I/71RUyskVR+L._AC_UY327_FMwebp_QL65_.jpg",
+      "id": "11"
+    },
+    {
+      "name": "Lenovo IdeaPad Slim 3 (Core i3 12th Gen, 8GB, 256GB SSD, Windows 11)",
+      "specifications": "Intel Core i3 12th Gen Processor,8GB DDR4 RAM | 256GB SSD,15.6\" FHD Anti-glare Display,Integrated Intel UHD Graphics,Lightweight and Portable Design,1 Year Manufacturer Warranty",
+      "price": "35999",
+      "discount": "20",
+      "category": "laptop",
+      "inStock": "Yes",
+      "imgSrc": "https://m.media-amazon.com/images/I/81+SKGgJ9yL._AC_UY327_FMwebp_QL65_.jpg",
+      "id": "14"
+    },
+    {
+      "id": "1f90",
+      "name": "HP Pavilion x260 (Core i3 11th Gen, 8GB, 256GB SSD, Windows 11)",
+      "specifications": "Intel Core i3 11th Gen Processor,8GB DDR4 RAM | 256GB SSD,14\" Full HD Touchscreen Display,Intel Iris Xe Graphics,360-degree Hinge | Backlit Keyboard,1 Year Manufacturer Warranty",
+      "price": "42599",
+      "discount": "10",
+      "category": "Laptop",
+      "inStock": "Yes",
+      "imgSrc": "https://m.media-amazon.com/images/I/71RUyskVR+L._AC_UY327_FMwebp_QL65_.jpg"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "1",
+      "title": "Team Standup",
+      "organizer": "John Doe",
+      "participants": [
+        "Alice",
+        "Bob",
+        "Charlie"
+      ],
+      "date": "2025-01-05",
+      "time": "09:00 AM",
+      "duration": "30 mins",
+      "location": "Conference Room A"
+    },
+    {
+      "id": "2",
+      "title": "Project Planning",
+      "organizer": "Jane Smith",
+      "participants": [
+        "Alice",
+        "Bob",
+        "David"
+      ],
+      "date": "2025-01-06",
+      "time": "11:00 AM",
+      "duration": "1 hour",
+      "location": "Zoom"
+    },
+    {
+      "id": "3",
+      "title": "Client Presentation",
+      "organizer": "Chris Johnson",
+      "participants": [
+        "Emily",
+        "Frank",
+        "Grace"
+      ],
+      "date": "2025-01-07",
+      "time": "02:00 PM",
+      "duration": "45 mins",
+      "location": "Board Room"
+    },
+    {
+      "id": "4",
+      "title": "Weekly Review",
+      "organizer": "Sarah Lee",
+      "participants": [
+        "Alice",
+        "John",
+        "Charlie"
+      ],
+      "date": "2025-01-08",
+      "time": "04:00 PM",
+      "duration": "1 hour",
+      "location": "Microsoft Teams"
+    }
+  ],
+  "tickets": [
+    {
+      "ticketId": "TKT001",
+      "subject": "Unable to login to account",
+      "description": "User unable to log in despite using correct credentials. Password reset also failed.",
+      "status": "Open",
+      "priority": "High",
+      "createdDate": "2025-01-20",
+      "updatedDate": "2025-01-25",
+      "dueDate": "2025-01-27",
+      "assignedTo": "John Doe",
+      "escalated": false,
+      "resolution": null,
+      "category": "Login Issues",
+      "tags": [
+        "login",
+        "authentication"
+      ],
+      "customer": {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "phone": "+1234567890",
+        "organization": "Tech Solutions"
+      },
+      "id": "33de"
+    },
+    {
+      "ticketId": "TKT002",
+      "subject": "Website not loading",
+      "description": "Website is not loading on multiple browsers. Cleared cache, still no success.",
+      "status": "In Progress",
+      "priority": "Critical",
+      "createdDate": "2025-01-22",
+      "updatedDate": "2025-01-25",
+      "dueDate": "2025-01-26",
+      "assignedTo": "Sarah Connor",
+      "escalated": true,
+      "resolution": null,
+      "category": "Website Issues",
+      "tags": [
+        "website",
+        "critical"
+      ],
+      "customer": {
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "phone": "+9876543210",
+        "organization": "WebCorp Inc."
+      },
+      "id": "e325"
+    },
+    {
+      "ticketId": "TKT003",
+      "subject": "Payment failure during checkout",
+      "description": "Payment gateway error while trying to pay using a credit card.",
+      "status": "Resolved",
+      "priority": "Medium",
+      "createdDate": "2025-01-21",
+      "updatedDate": "2025-01-23",
+      "dueDate": "2025-01-24",
+      "assignedTo": "Emily Davis",
+      "escalated": false,
+      "resolution": "Payment gateway fixed, and customer successfully completed the purchase.",
+      "category": "Payment Issues",
+      "tags": [
+        "payment",
+        "checkout",
+        "gateway"
+      ],
+      "customer": {
+        "name": "Charlie Green",
+        "email": "charlie.green@example.com",
+        "phone": "+1928374650",
+        "organization": "E-Shop"
+      },
+      "id": "d609"
+    },
+    {
+      "ticketId": "TKT004",
+      "subject": "Request for password reset",
+      "description": "Customer has not received a password reset email despite multiple attempts.",
+      "status": "Pending Customer Response",
+      "priority": "Low",
+      "createdDate": "2025-01-19",
+      "updatedDate": "2025-01-21",
+      "dueDate": "2025-01-25",
+      "assignedTo": "Mike Johnson",
+      "escalated": false,
+      "resolution": null,
+      "category": "Account Support",
+      "tags": [
+        "password",
+        "reset"
+      ],
+      "customer": {
+        "name": "Diana White",
+        "email": "diana.white@example.com",
+        "phone": "+1827364547",
+        "organization": "TechPro"
+      },
+      "id": "92c0"
+    },
+    {
+      "ticketId": "TKT005",
+      "subject": "Feature not working in the mobile app",
+      "description": "Push notifications are not working in the Android app.",
+      "status": "Open",
+      "priority": "Medium",
+      "createdDate": "2025-01-18",
+      "updatedDate": "2025-01-19",
+      "dueDate": "2025-01-28",
+      "assignedTo": "Alex White",
+      "escalated": true,
+      "resolution": null,
+      "category": "Mobile App Issues",
+      "tags": [
+        "mobile app",
+        "notifications"
+      ],
+      "customer": {
+        "name": "Ethan Hunt",
+        "email": "ethan.hunt@example.com",
+        "phone": "+1098765432",
+        "organization": "IMF Analytics"
+      },
+      "id": "0970"
+    },
+    {
+      "ticketId": "TKT006",
+      "subject": "Unable to access admin panel",
+      "description": "Admin panel returns a 403 Forbidden error for authorized users.",
+      "status": "In Progress",
+      "priority": "High",
+      "createdDate": "2025-01-23",
+      "updatedDate": "2025-01-25",
+      "dueDate": "2025-01-29",
+      "assignedTo": "Jane Smith",
+      "escalated": true,
+      "resolution": null,
+      "category": "Admin Access Issues",
+      "tags": [
+        "admin",
+        "access"
+      ],
+      "customer": {
+        "name": "Bruce Wayne",
+        "email": "bruce.wayne@example.com",
+        "phone": "+1100223344",
+        "organization": "Wayne Enterprises"
+      },
+      "id": "b0e4"
+    },
+    {
+      "ticketId": "TKT007",
+      "subject": "Bug in reporting dashboard",
+      "description": "Generated reports show incorrect data for the last quarter.",
+      "status": "Open",
+      "priority": "Low",
+      "createdDate": "2025-01-20",
+      "updatedDate": "2025-01-21",
+      "dueDate": "2025-02-01",
+      "assignedTo": "Kevin Taylor",
+      "escalated": false,
+      "resolution": null,
+      "category": "Reporting Issues",
+      "tags": [
+        "dashboard",
+        "reports"
+      ],
+      "customer": {
+        "name": "Clark Kent",
+        "email": "clark.kent@example.com",
+        "phone": "+1202334455",
+        "organization": "Daily Planet"
+      },
+      "id": "95ee"
+    },
+    {
+      "ticketId": "TKT008",
+      "subject": "Integration issue with third-party API",
+      "description": "API response is returning a 500 error for all requests.",
+      "status": "Resolved",
+      "priority": "High",
+      "createdDate": "2025-01-15",
+      "updatedDate": "2025-01-16",
+      "dueDate": "2025-01-17",
+      "assignedTo": "Lucy Brown",
+      "escalated": false,
+      "resolution": "Issue fixed on the third-party API server.",
+      "category": "Integration Issues",
+      "tags": [
+        "API",
+        "integration"
+      ],
+      "customer": {
+        "name": "Lois Lane",
+        "email": "lois.lane@example.com",
+        "phone": "+1456789101",
+        "organization": "Media Corp"
+      },
+      "id": "9904"
+    },
+    {
+      "ticketId": "TKT009",
+      "subject": "Request for data migration",
+      "description": "Customer wants to migrate their data from the old system to the new platform.",
+      "status": "In Progress",
+      "priority": "Medium",
+      "createdDate": "2025-01-10",
+      "updatedDate": "2025-01-20",
+      "dueDate": "2025-02-05",
+      "assignedTo": "Peter Parker",
+      "escalated": false,
+      "resolution": null,
+      "category": "Data Migration",
+      "tags": [
+        "migration",
+        "data"
+      ],
+      "customer": {
+        "name": "Tony Stark",
+        "email": "tony.stark@example.com",
+        "phone": "+1876543210",
+        "organization": "Stark Industries"
+      },
+      "id": "8447"
+    },
+    {
+      "ticketId": "TKT010",
+      "subject": "Account suspended without reason",
+      "description": "User's account was suspended without prior notice or explanation.",
+      "status": "Open",
+      "priority": "High",
+      "createdDate": "2025-01-25",
+      "updatedDate": "2025-01-25",
+      "dueDate": "2025-01-30",
+      "assignedTo": "Natasha Romanoff",
+      "escalated": true,
+      "resolution": null,
+      "category": "Account Issues",
+      "tags": [
+        "suspension",
+        "account"
+      ],
+      "customer": {
+        "name": "Steve Rogers",
+        "email": "steve.rogers@example.com",
+        "phone": "+1543210987",
+        "organization": "SHIELD"
+      },
+      "id": "de55"
+    }
+  ],
+  "employees": [
+    {
+      "firstname": "Jaideep",
+      "lastname": "A",
+      "email": "jai@gmail.com",
+      "phoneno": "9034512390",
+      "password": "test@123",
+      "role": "employee",
+      "id": "af3c"
+    },
+    {
+      "firstname": "Ram Ratan",
+      "lastname": "Patil",
+      "email": "ratan@gmail.com",
+      "phoneno": "9847855669",
+      "password": "ram@123",
+      "role": "admin",
+      "id": "af15"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "1",
+      "name": "Priya Gupta",
+      "duration": 5,
+      "startDate": "22/04/2022",
+      "endDate": "28/04/2022",
+      "type": "Sick",
+      "reason": "Personal"
+    },
+    {
+      "id": "2",
+      "name": "Priya Gupta",
+      "duration": 7,
+      "startDate": "01/05/2022",
+      "endDate": "07/05/2022",
+      "type": "Annual",
+      "reason": "Vacation"
+    },
+    {
+      "id": "3",
+      "name": "Priya Gupta",
+      "duration": 120,
+      "startDate": "22/04/2022",
+      "endDate": "28/06/2022",
+      "type": "Maternity",
+      "reason": "Child Care"
+    },
+    {
+      "id": "4",
+      "name": "Priya Gupta",
+      "duration": 5,
+      "startDate": "10/06/2022",
+      "endDate": "15/06/2022",
+      "type": "Sick",
+      "reason": "Personal"
+    },
+    {
+      "id": "5",
+      "name": "Priya Gupta",
+      "duration": 10,
+      "startDate": "01/03/2022",
+      "endDate": "10/03/2022",
+      "type": "Compassionate",
+      "reason": "Family Emergency"
+    },
+    {
+      "id": "6",
+      "name": "Priya Gupta",
+      "duration": 7,
+      "startDate": "15/08/2022",
+      "endDate": "21/08/2022",
+      "type": "Annual",
+      "reason": "Travel"
+    },
+    {
+      "id": "7",
+      "name": "Priya Gupta",
+      "duration": 14,
+      "startDate": "01/07/2022",
+      "endDate": "15/07/2022",
+      "type": "Maternity",
+      "reason": "Child Care"
+    },
+    {
+      "id": "8",
+      "name": "Priya Gupta",
+      "duration": 3,
+      "startDate": "20/09/2022",
+      "endDate": "23/09/2022",
+      "type": "Sick",
+      "reason": "Health"
+    },
+    {
+      "id": "9",
+      "name": "Priya Gupta",
+      "duration": 5,
+      "startDate": "05/10/2022",
+      "endDate": "10/10/2022",
+      "type": "Compassionate",
+      "reason": "Funeral"
+    },
+    {
+      "id": "10",
+      "name": "Priya Gupta",
+      "duration": 10,
+      "startDate": "25/12/2022",
+      "endDate": "04/01/2023",
+      "type": "Annual",
+      "reason": "New Year Vacation"
+    },
+    {
+      "id": "72b1",
+      "startDate": "2025-02-05",
+      "endDate": "2025-02-07",
+      "duration": "3",
+      "resumptionDate": "2025-02-10",
+      "reason": "Personal",
+      "reliefOfficer": "Manideep",
+      "type": "Annual"
+    },
+    {
+      "id": "6700",
+      "startDate": "2025-02-05",
+      "endDate": "2025-02-07",
+      "duration": "3",
+      "resumptionDate": "2025-02-06",
+      "reason": "Personal",
+      "reliefOfficer": "Manideep",
+      "name": "Bhargav K",
+      "type": "Sick"
+    }
+  ]
+}

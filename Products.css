@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    justify-items: center;
+}
+
+
+.productdetails{
+    display: flex;
+    column-gap: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 800px;
+}
+.productimage img{
+    width: 300px;
+    height: 300px;
+}
+span{
+    font-weight: bold;
+}
+#edit{
+    color: green;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-left: 420px;
+    margin-bottom: 0px;
+}
+#delete{
+    color: red;
+    cursor: pointer;
+}
+
+#add-product {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    a {
+        background: blue;
+        color: white;
+        border-radius: 8px;
+        padding: 12px 14px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
