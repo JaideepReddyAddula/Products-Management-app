@@ -1,6 +1,6 @@
 async function getProductsList() {
     try {
-        const response = await fetch('https://Products-Management-app.onrender.com/products', { method: 'GET' });
+        const response = await fetch('https://products-management-app.onrender.com/products', { method: 'GET' });
         const products = await response.json();
 
         displayProductsList(products);
@@ -42,7 +42,7 @@ function displayProductsList(products) {
 
 async function deleteProduct(productId) {
     try {
-        await fetch('https://Products-Management-app.onrender.com/products/' + productId, { method: 'DELETE' });
+        await fetch('https://products-management-app.onrender.com/products/' + productId, { method: 'DELETE' });
         getProductsList();
         
     } catch (error) {
